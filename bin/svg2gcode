@@ -46,3 +46,5 @@ if(program.top > 0) {
 else {
   gctx.motion.retract();
 }
+
+process.exit(0);
