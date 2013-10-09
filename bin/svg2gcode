@@ -31,9 +31,12 @@ function run(file) {
   canvg(gctx.canvas, svg);
 }
 
-if(program.args.length === 0) {
+if(program.args.length === 0 && process.stdin.isTTY) {
   program.outputHelp();
   process.exit(0);
+}
+if(!process.stdin.isTTY) {
+  run('/dev/stdin');
 }
 
 program.args.forEach(function(file) {

@@ -1,6 +1,6 @@
 {
   "name": "svg2gcode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert SVG to Gcode",
   "bin": {
     "svg2gcode": "./bin/svg2gcode"
