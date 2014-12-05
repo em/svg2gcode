@@ -1,14 +1,14 @@
 {
   "name": "svg2gcode",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert SVG to Gcode",
   "bin": {
     "svg2gcode": "./bin/svg2gcode"
   },
   "dependencies": {
-    "commander": "*",
-    "canvg": "*",
-    "gcanvas": "*"
+    "canvg": "0.0.6",
+    "commander": "^2.5.0",
+    "gcanvas": "0.0.*"
   },
   "repository": {
     "type": "git",
